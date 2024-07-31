@@ -7,6 +7,7 @@ toggleButton.addEventListener('click',()=>{
   if (toggleText.style.display === 'none') {
     toggleText.style.display = 'block';
     rotatedArrow.style.transform  = 'rotate(180deg)';
+    rotatedArrow.style.transition = ' 0.5s ease'
     readText.innerText = '';
   } else {
     toggleText.style.display = 'none';
