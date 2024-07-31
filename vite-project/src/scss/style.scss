@@ -5,21 +5,16 @@
 }
 
 .card__container {
-  
-  width: 100%;
-  
+   width: 100%;
   border: 1px solid black;
   background:grey;
-  
 }
 
 .card__container--main-card {
   width:745px;
   background: rgba(255, 255, 255, 1);
-
   border-radius: 8px;
   margin:10px;
-  
 }
 
 @media screen and (max-width:768px) {
@@ -144,13 +139,7 @@
   border-top: 1px solid  rgba(0, 0, 0, 0.4);
   margin:10px;
  
-
-  
-
-  
-  
-
-   p {
+  p {
     font-size:15px;
     flex-wrap: nowrap;
     
@@ -271,8 +260,6 @@
       cursor: pointer;
     }
    }
-
-  
   }
 }
 
@@ -430,30 +417,5 @@ font-weight: 400;
 border: 1px solid #3498DB;
 font-size:14px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
 }
